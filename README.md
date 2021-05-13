@@ -1,4 +1,4 @@
-# optimism-test
+# arbiturm-test
 
 ## Steps
  
@@ -8,16 +8,11 @@
 yarn
 ```
 
-### Step 2: Update .env
- 
-put your privateKey to `.env` . Change PRIVATE_KEY=`YOUR_PRIVATE_KEY`
+### Step 2: Update truffle-config
+
+update the mnemonic
 
 ### Step 3: Run Test
 
-```shell
-./scripts/run.sh
-```
-
-`runBlockNumberTest()` will work, but `runBlockNumberTest1()` will error.
-Difference is `compareAndUpdateUserState()` function.
+run `yarn migrate:kovan_arbitrum`
 
