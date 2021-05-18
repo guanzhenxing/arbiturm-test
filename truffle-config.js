@@ -10,7 +10,7 @@ module.exports = {
                     new HDWalletProvider(mnemonic, 'https://kovan5.arbitrum.io/rpc')
                 )
             },
-            network_id: '',
+            network_id: '144545313136048',
             gasPrice: 0,
             gas: 50000000,
             networkCheckTimeout: 7500
