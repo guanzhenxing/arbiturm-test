@@ -12,7 +12,7 @@ module.exports = {
             },
             network_id: '144545313136048',
             gasPrice: 0,
-            gas: 50000000,
+            gas: 60000000,
             networkCheckTimeout: 7500
         },
     },
