@@ -1,6 +1,6 @@
 const wrapProvider = require('arb-ethers-web3-bridge').wrapProvider
 const HDWalletProvider = require('@truffle/hdwallet-provider')
-const mnemonic = ''
+const mnemonic = 'c018d9cf21333806075a7c1f32a1bbecfe3f0eecbea3bcb52dd57f98fd2caaea'
 
 module.exports = {
     networks: {
@@ -10,9 +10,9 @@ module.exports = {
                     new HDWalletProvider(mnemonic, 'https://kovan5.arbitrum.io/rpc')
                 )
             },
-            network_id: '144545313136048',
+            network_id: '',
             gasPrice: 0,
-            gas: 20000000,
+            gas: 50000000,
             networkCheckTimeout: 7500
         },
     },
