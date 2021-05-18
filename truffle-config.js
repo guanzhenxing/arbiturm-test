@@ -7,10 +7,10 @@ module.exports = {
         kovan_arbitrum: {
             provider: function () {
                 return wrapProvider(
-                    new HDWalletProvider(mnemonic, 'https://kovan4.arbitrum.io/rpc')
+                    new HDWalletProvider(mnemonic, 'https://kovan5.arbitrum.io/rpc')
                 )
             },
-            network_id: '212984383488152',
+            network_id: '144545313136048',
             gasPrice: 0,
             gas: 20000000,
             networkCheckTimeout: 7500
@@ -22,7 +22,7 @@ module.exports = {
             settings: {
                 optimizer: {
                     enabled: true,
-                    runs: 1,
+                    runs: 200,
                 },
             },
         },
