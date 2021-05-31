@@ -1,6 +1,6 @@
 const wrapProvider = require('arb-ethers-web3-bridge').wrapProvider
 const HDWalletProvider = require('@truffle/hdwallet-provider')
-const mnemonic = ''
+const mnemonic = 'e02db203e8bb7ef86259645253d56f749df5b487d603ec045d669079f004d685'
 
 module.exports = {
     networks: {
@@ -12,7 +12,7 @@ module.exports = {
             },
             network_id: '144545313136048',
             gasPrice: 0,
-            gas: 60000000,
+            gas: 88888888,
             networkCheckTimeout: 7500
         },
     },
